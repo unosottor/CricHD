@@ -1,4 +1,4 @@
-name: Auto-generate Crichd Files
+name: Auto Update Files 
 
 on:
   schedule:
