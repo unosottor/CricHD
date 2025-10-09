@@ -1,179 +1,179 @@
 {
-  "last_update": "2025-10-09T06:50:15.806231+00:00",
+  "last_update": "2025-10-09T06:58:35.244471+00:00",
   "channels": [
     {
       "tvg-id": "ptvpk",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "PTV Sports",
-      "url": "https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=asoDD2s4ghaW_nCgkabTWQ&expires=1759999768"
+      "url": "https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=Ca2WHkC-h6Y413WN6wJsqw&expires=1760000274"
     },
     {
       "tvg-id": "sonyten1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Tony Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=dvO82nO3EGhIsipJSuHWCg&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=UuK2AcSD3_b4B0iwupMEpw&expires=1760000274"
     },
     {
       "tvg-id": "willowusa",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Willow Cricket",
-      "url": "https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=C8oa0AgtXgD7S5zcN2sM0A&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=N3r6NWvxRN50e0bWTKJp8Q&expires=1760000273"
     },
     {
       "tvg-id": "tensp",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Ten Sports PK",
-      "url": "https://d15.epicquesthero.com:999/hls/tenspk.m3u8?md5=NPBcca4gxMahHeWVViLxnA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/tenspk.m3u8?md5=17INGkke6AK6okB1sfx8bg&expires=1760000272"
     },
     {
       "tvg-id": "asportshd",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "A Sports HD",
-      "url": "https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=9ycbNCaD7T4y-SM0R65TyA&expires=1759999769"
+      "url": "https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=QINOENDiXYWrSAd6fPBr0g&expires=1760000273"
     },
     {
       "tvg-id": "tonymax",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Tony Sports 3",
-      "url": "https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=4zA2BdEStLUG0Nkl7JNy6w&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=r5f_6tinF7wG0WN4Me2QUw&expires=1760000274"
     },
     {
       "tvg-id": "sscricket",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Super Cricket",
-      "url": "https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=BY0jbdR0BlEaa04G8WnzvA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=eDfTBN5cC716zwy-lUmwtQ&expires=1760000272"
     },
     {
       "tvg-id": "skys2",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Sky Sports Cricket",
-      "url": "https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=8ly-_02Y7Yeb8AIePcb58A&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=t84iQekFW7Qiifkr9rk-3w&expires=1760000274"
     },
     {
       "tvg-id": "btsp4",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 4",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=CMqGlp29gGk_YbxHylwOHg&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=UJm4_U2fvDhbX7E7krrZcg&expires=1760000273"
     },
     {
       "tvg-id": "btsp3",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 3",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=5YpBvoeyTtHyYi_Ah5EBvw&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=IxqUlNwe0xsaOeQ45kM8iQ&expires=1760000272"
     },
     {
       "tvg-id": "btsp1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=P4vvEQ6v_LUwyZNmbIR98w&expires=1759999769"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=cn0wH-kXr8j0pLohN1-8sw&expires=1760000274"
     },
     {
       "tvg-id": "btsp2",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 2",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=6orzdSHBtlDBd3VaWiLyhA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=zjiq41XO6SY79uFISI8K3Q&expires=1760000273"
     },
     {
       "tvg-id": "willowextra",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Willow 2",
-      "url": "https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=Zz3vzaFHc9b3vM3ZQiGCpg&expires=1759999768"
+      "url": "https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=djZaKhfsJM7jXlHN7GhJCg&expires=1760000273"
     },
     {
       "tvg-id": "fox501",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "FOX Cricket 501",
-      "url": "https://d15.epicquesthero.com:999/hls/fox501.m3u8?md5=BxiWbtOs1yuvIPu1zdwLVQ&expires=1759999769"
+      "url": "https://d15.epicquesthero.com:999/hls/fox501.m3u8?md5=nyQc4Wel3O2TeFCaaKheQw&expires=1760000272"
     },
     {
       "tvg-id": "skys1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Sky Sports Main Event",
-      "url": "https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=64_Fmeea-VfzDssG-aZYdQ&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=nRptZJiYgMXrDATBpDGv1g&expires=1760000272"
     },
     {
       "tvg-id": "viasp1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Via Play Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/premieruk.m3u8?md5=i6LpAgP6CzDrRqcmx6JiUg&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/premieruk.m3u8?md5=vP62PF35xVLORFN-Fz8JKw&expires=1760000273"
     },
     {
       "tvg-id": "btsp5",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 5",
-      "url": "https://d15.epicquesthero.com:999/hls/hdchnl10.m3u8?md5=rnCR77-tcdeOMmAyxxFoOA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/hdchnl10.m3u8?md5=fbbCbxSTk_mt1TnA9lRH8A&expires=1760000272"
     },
     {
       "tvg-id": "tara",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Tara Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=JF7QvHIckXnyZ0QCTx35-A&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=xPNy7Bh-jjGKDa5U-r7VbQ&expires=1760000272"
     },
     {
       "tvg-id": "tara1hi",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Tara Sports Hindi",
-      "url": "https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=fXwsHukMelCES_cHwRT9mA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=p4zArFR2xxz8OjIpRYuaUA&expires=1760000273"
     },
     {
       "tvg-id": "sky1nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 1 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky1nz.m3u8?md5=12YS3s44e-morEOgmksSZQ&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky1nz.m3u8?md5=IB6khucpOQi0b4zFT5cHJg&expires=1760000272"
     },
     {
       "tvg-id": "sky2nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 2 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky2nz.m3u8?md5=0TCCTPS9bLmd4etEKB64-g&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky2nz.m3u8?md5=910l2dcI70T8ASOh9xPHAQ&expires=1760000274"
     },
     {
       "tvg-id": "sky3nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 3 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky3nz.m3u8?md5=lz85JTwkCOGMUWzri78DoA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky3nz.m3u8?md5=-PUgNc_s05qL62RiM49_0w&expires=1760000272"
     },
     {
       "tvg-id": "sky4nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 4 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky4nz.m3u8?md5=Sr8afcDSD54AyS1q3CTWwQ&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky4nz.m3u8?md5=z_tm0lQe90tXaYu3BVdEew&expires=1760000273"
     },
     {
       "tvg-id": "sky5nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 5 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky5nz.m3u8?md5=8SWnlalAOKvo40Bc9lXGdw&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky5nz.m3u8?md5=JBH9GJkHwgSIpL5NRG_g1g&expires=1760000272"
     },
     {
       "tvg-id": "sky6nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 6 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky6nz.m3u8?md5=OQpHP8eCO4VbLrbmuxjCzw&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky6nz.m3u8?md5=VtWZepmmm3guUwsusMIDIQ&expires=1760000272"
     },
     {
       "tvg-id": "sky7nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 7 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky7nz.m3u8?md5=dssNhJvLx_yYwq2_bARNwg&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky7nz.m3u8?md5=_755Y07vFVdVUp8AL5WWtQ&expires=1760000272"
     },
     {
       "tvg-id": "sky8nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 8 NZ",
-      "url": "https://d15.epicquesthero.com:999/hls/sky8nz.m3u8?md5=VlX-d-tEhXdo_QeP3xsScw&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/sky8nz.m3u8?md5=K3rwkHxrQNINocAvnRa2vw&expires=1760000273"
     },
     {
       "tvg-id": "laligauk",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "LaLiga UK",
-      "url": "https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=pVphvbayvJ2HOYJowm70yA&expires=1759999767"
+      "url": "https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=Y9yrpmDjvQtTxWfVKvhmpQ&expires=1760000273"
     },
     {
       "tvg-id": "skysfotb",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sports Football",
-      "url": "https://d15.epicquesthero.com:999/hls/skysfott.m3u8?md5=olObxPrM8P52VBYk2a3Qtw&expires=1759999768"
+      "url": "https://d15.epicquesthero.com:999/hls/skysfott.m3u8?md5=F6BrYl-ymL3PA7HRvF8INQ&expires=1760000272"
     },
     {
       "tvg-id": "hdchnl2",
