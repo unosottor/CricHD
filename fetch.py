@@ -15,7 +15,7 @@ PROJECT_INFO = {
     "name": "CricHD Channels Playlist",
     "description": "Automatically generated CricHD playlist channels",
     "version": "1.0.0",
-    "developer": "@sultanarabi 161 —  credit: Toufik bro@",
+    "developer": "Incognito Brothers",
     "country": "Bangladesh"
 }
 
