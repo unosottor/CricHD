@@ -1,5 +1,14 @@
 {
-  "last_update": "2025-10-20T04:14:39.236781+00:00",
+  "metadata": {
+    "name": "CricHD Channels Playlist",
+    "description": "Automatically generated CricHD playlist channels",
+    "version": "1.0.0",
+    "developer": "Incognito Brothers",
+    "country": "Bangladesh",
+    "last_update_utc": "2025-10-20T04:33:28.061587+00:00",
+    "last_update_bd": "2025-10-20 04:33:28 UTC",
+    "total_channels": 0
+  },
   "channels": [
     {
       "tvg-id": "ptvpk",
