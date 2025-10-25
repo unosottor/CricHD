@@ -2,23 +2,23 @@ name: Update Playlist
 
 on:
   schedule:
-    - cron: '*/10 * * * *'   
-  workflow_dispatch:
+    - cron: '*/10 * * * *'  
+  workflow_dispatch:         
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      STREAM_URL: ${{ secrets.STREAM_URL }}  
+      STREAM_URL: ${{ secrets.STREAM_URL }}
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'   
+          python-version: '3.11'
 
       - name: Install Dependencies
         run: |
@@ -26,15 +26,15 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Fetch M3U8 & Update Files
-        run: python fetch.py 
+      - name: Fetch and Update JSON Playlist
+        run: python fetch.py
 
-      - name: Commit & Push
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add playlist.json playlist.m3u
-          git commit -m "Auto-update playlist" || echo "No changes to commit"
+          git add playlist.json
+          git commit -m "🔄 Auto-update playlist.json" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
