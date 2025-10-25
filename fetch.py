@@ -1,14 +1,14 @@
 import os
 import asyncio
 import json
-from datetime import datetime, timezone
+import requests
 from playwright.async_api import async_playwright
 
-JSON_FILE = "api.json"
+JSON_FILE = "playlist.json"
 
 # 🔒 Secrets (from GitHub Actions)
-BASE_URL = os.getenv("STREAM_URL", "")
-CHANNELS_SECRET = os.getenv("CHANNELS_JSON", "[]")
+BASE_URL = os.getenv("STREAM_URL", "https://example.com/")
+CHANNELS_URL = os.getenv("CHANNELS_JSON", "")
 
 
 async def fetch_channel(ch):
@@ -24,7 +24,6 @@ async def fetch_channel(ch):
                 m3u8_url = url
 
         page.on("response", log_response)
-
         await page.goto(f"{BASE_URL}{ch['code']}.php", timeout=60000)
 
         try:
@@ -45,11 +44,13 @@ async def fetch_channel(ch):
 
 
 async def main():
-    # 🔒 Load channels from GitHub Secret (JSON string)
+    # 🌐 Fetch channel list directly from remote JSON link
     try:
-        channels = json.loads(CHANNELS_SECRET)
-    except json.JSONDecodeError:
-        print("❌ CHANNELS_JSON secret is invalid JSON")
+        response = requests.get(CHANNELS_URL)
+        response.raise_for_status()
+        channels = response.json()
+    except Exception as e:
+        print(f"❌ Failed to fetch or parse channels JSON: {e}")
         return
 
     tasks = [fetch_channel(ch) for ch in channels]
@@ -58,7 +59,7 @@ async def main():
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print("✅ api.json updated successfully!")
+    print("✅ playlist.json updated successfully!")
 
 
 if __name__ == "__main__":
