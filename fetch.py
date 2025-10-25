@@ -6,9 +6,7 @@ from playwright.async_api import async_playwright
 
 CHANNELS_FILE = "channels.json"
 JSON_FILE = "playlist.json"
-M3U_FILE = "playlist.m3u"
 
-# মূল পেজের URL (Environment variable বা সরাসরি সেট করতে পারো)
 BASE_URL = os.getenv("STREAM_URL", "https://example.com/")
 
 # ডিফল্ট referer/origin
@@ -58,25 +56,11 @@ async def main():
     tasks = [fetch_channel(ch) for ch in channels]
     result = await asyncio.gather(*tasks)
 
-    # 🎯 JSON save (new structure)
+    
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    # 🎯 M3U save (new format)
-    m3u_content = "#EXTM3U\n"
-    for ch in result:
-        if ch.get("link"):
-            m3u_content += (
-                f'#EXTINF:-1 tvg-logo="{ch["logo"]}",{ch["name"]}\n'
-                f'#EXTVLCOPT:http-referrer={ch["referer"]}\n'
-                f'#EXTVLCOPT:http-origin={ch["origin"]}\n'
-                f'{ch["link"]}\n'
-            )
-
-    with open(M3U_FILE, "w", encoding="utf-8") as f:
-        f.write(m3u_content)
-
-    print("✅ JSON and M3U updated successfully!")
+    print("✅ playlist.json updated successfully!")
 
 
 if __name__ == "__main__":
