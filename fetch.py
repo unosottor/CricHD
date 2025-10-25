@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timezone
 from playwright.async_api import async_playwright
 
-JSON_FILE = "playlist.json"
+JSON_FILE = "api.json"
 
 # 🔒 Secrets (from GitHub Actions)
 BASE_URL = os.getenv("STREAM_URL", "")
