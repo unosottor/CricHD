@@ -1,3 +1,2 @@
-requests>=2.28
-pyzipper>=0.3.8
+requests
 playwright
