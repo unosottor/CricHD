@@ -4,13 +4,11 @@ import json
 from datetime import datetime, timezone
 from playwright.async_api import async_playwright
 
-CHANNELS_FILE = "channels.json"
 JSON_FILE = "playlist.json"
 
-BASE_URL = os.getenv("STREAM_URL", "https://example.com/")
-
-DEFAULT_REFERER = "https://profamouslife.com/"
-DEFAULT_ORIGIN = "https://profamouslife.com"
+# 🔒 Secrets (from GitHub Actions)
+BASE_URL = os.getenv("STREAM_URL", "")
+CHANNELS_SECRET = os.getenv("CHANNELS_JSON", "[]")
 
 
 async def fetch_channel(ch):
@@ -42,20 +40,21 @@ async def fetch_channel(ch):
             "name": ch["name"],
             "id": ch["code"],
             "logo": ch["tvg-logo"],
-            "link": m3u8_url,
-            "referer": DEFAULT_REFERER,
-            "origin": DEFAULT_ORIGIN
+            "link": m3u8_url
         }
 
 
 async def main():
-    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
-        channels = json.load(f)
+    # 🔒 Load channels from GitHub Secret (JSON string)
+    try:
+        channels = json.loads(CHANNELS_SECRET)
+    except json.JSONDecodeError:
+        print("❌ CHANNELS_JSON secret is invalid JSON")
+        return
 
     tasks = [fetch_channel(ch) for ch in channels]
     result = await asyncio.gather(*tasks)
 
-    
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
