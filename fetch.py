@@ -9,7 +9,6 @@ JSON_FILE = "playlist.json"
 
 BASE_URL = os.getenv("STREAM_URL", "https://example.com/")
 
-# ডিফল্ট referer/origin
 DEFAULT_REFERER = "https://profamouslife.com/"
 DEFAULT_ORIGIN = "https://profamouslife.com"
 
