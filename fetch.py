@@ -58,7 +58,7 @@ async def main():
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print("✅ playlist.json updated successfully!")
+    print("✅ api.json updated successfully!")
 
 
 if __name__ == "__main__":
